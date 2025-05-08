@@ -42,7 +42,7 @@ jobs:
           node-version: 22.4.x
 
       - name: Build
-        run: npm ci && npm run build-web
+        run: npm ci && npm run build-www
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
