@@ -11,7 +11,7 @@
     "start": "node scripts/server.js",
     "dev": "vite",
     "build": "rimraf dist && webpack --config scripts/webpack.config.prod.js && rollup -c scripts/rollup.esm.mjs",
-    "build-web": "tsc && vite build",
+    "build-www": "tsc && vite build",
     "profile:tesseract": "webpack-bundle-analyzer dist/tesseract-stats.json",
     "profile:worker": "webpack-bundle-analyzer dist/worker-stats.json",
     "prepublishOnly": "npm run build",

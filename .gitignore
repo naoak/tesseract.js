@@ -7,6 +7,7 @@ worker.min.js
 *.traineddata.gz
 .nyc_output
 dist/
+dist-www/
 *.swp
 *.wasm
 *.wasm.js
